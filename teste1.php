@@ -12,7 +12,7 @@
 
     $length = strpos ($text, "computadores passem");
 
-    $result = substr($text, 0, 20); 
+    $result = substr($text, 0, $length); 
 
         echo $result;
     ?>
